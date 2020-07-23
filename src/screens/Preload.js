@@ -3,6 +3,13 @@ import { connect } from 'react-redux';
 
 const Preload = (props) => {
 
+    props.navigation.dispatch(StackActions.reset({
+        index:0,
+        actions:[
+            NavigationActions.navigate({routeName:'Login'})
+        ]
+    }));
+/*
     if(!props.token){
         props.navigation.dispatch(StackActions.reset({
             index:0,
@@ -18,7 +25,7 @@ const Preload = (props) => {
             ]
         }));
     }
-
+*/
     return null;
 }
 const mapStateToProps = (state) => {
