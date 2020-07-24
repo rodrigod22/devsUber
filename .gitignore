@@ -1,3 +1,6 @@
+/src/config.js
+/android/app/src/main/AndroidManifest.xml
+/ios/DevsUber/AppDelegate.m
 # OSX
 #
 .DS_Store
