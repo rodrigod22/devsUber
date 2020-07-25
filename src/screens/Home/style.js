@@ -53,3 +53,39 @@ color#555;
 font-size:16px;
 textAlign: center;
 `;
+
+export const RequestDetails = styled.View`
+flexDirection: row;
+`;
+
+export const RequestDetail = styled.View`
+flex:1;
+alignItems: center;
+`;
+
+export const RequestTitle = styled.Text`
+color:#999;
+fontWeight: bold;
+fontSize: 15px;
+`;
+
+export const RequestValue = styled.Text`
+color:#000;
+fontSize:17px;
+`;
+
+export const RequestButtons = styled.View`
+flexDirection: row;
+`;
+
+export const RequestButton = styled.TouchableHighlight`
+flex:1;
+height: 40px;
+justifyContent: center;
+alignItems: center;
+borderRadius: 5px;
+backgroundColor: ${props=>props.color};
+margin:10px 5px;
+`;
+
+export const RequestButtonText = styled.Text``;
